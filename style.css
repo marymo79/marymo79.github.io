@@ -1,0 +1,17 @@
+* { 
+    box-sizing: border-box; 
+} 
+  
+body { 
+    padding: 15px; 
+} 
+  
+.container { 
+    max-width: 1200px; 
+    margin: auto; 
+} 
+  
+
+h1 { 
+    color: rgba(0, 128, 0, 0.932); 
+}
