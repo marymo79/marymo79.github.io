@@ -1,22 +1,31 @@
 * { 
-    font-family: sans-serif;
-        line-height: 1.618em;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.618em;
     box-sizing: border-box;
-    
-    
     margin: 0;
     padding: 0;
-    background-image: url("./images/black_bk6.jpg");
-    background-size: 100%;
+    background-position: fixed;
+    background-size: cover;
     } 
 
 html{
-    font-size: 16px;
+    font-size: 2-px;
     margin-top: 3em;
+    background:black;
     }
 
-h1, h2 {
+h1 {
+    
+    /*background-image: url("./images/black_bk6.jpg");
+    background-size: cover;*/
     color: coral;
+    border-bottom: 2px solid coral;
+}
+h2 {
+    
+    font-size: 2.5rem;
+    color: coral;
+    /*border-bottom: 2px solid coral;*/
     }
 h3{
     padding-left: 4rem;
@@ -32,6 +41,8 @@ footer{
 
 header{
     padding: 3em 0;
+    text-align: center;
+    font-size: 2em;
 }
 header h1{
     font-size: 3em;
@@ -54,7 +65,8 @@ nav{
     background-image: url("./images/nav\ bar\ background.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 4rem;
+   
+    
 
 }
 nav a{
@@ -76,18 +88,40 @@ section{
 }
 section p {
     margin: 1em 0;
-    color:#fff
+    color:#fff;
+    font-size: 2em;
+    
 }
 section ul{
     padding-left: 1.5em;
     color:#fff;
 }
+#home{
+    background-image: url("./images/black_bk6.jpg");
+    min-height: 30vh;
+    min-width: 100%;
+    background-position: center;
+    margin: 0;
+}
+#about {
+    background: black;
+}
 
+#skills{
+    background: url("./images/black_bk6.jpg");
+    background-size: cover;
+}
+#skills{
+    display: flexbox;
+}
+
+ 
 #myProjects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     column-gap: 1em;
+    
 }
 
 #myProjects article{
@@ -101,6 +135,18 @@ section ul{
     border: 1px solid black;
 }
 
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#contact {
+    background-image: url("./images/black_bk6.jpg");
+    min-width: 100%;
+    background-position: bottom;
+    margin: 0;
+}
 
 footer {
     
